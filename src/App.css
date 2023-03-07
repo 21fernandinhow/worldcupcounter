@@ -1,0 +1,38 @@
+/*World Cup Official Colors: https://www.schemecolor.com/united-2026-fifa-world-cup-bid-logo-colors.php */
+
+.container{
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  color: #D1D4D1;
+  margin: 20px;
+  text-align: center;
+}
+
+.trophy{
+  max-height: 28vh;
+  filter: invert(100%);
+}
+
+.main h1{
+  margin-top: 0px;
+}
+
+.footer{
+  min-height: 12vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D1D4D1;
+  font-weight: bold;
+}
+
+.footer:hover{
+  font-size: 18px;
+  transition: 0.4s;
+}
