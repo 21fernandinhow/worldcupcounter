@@ -5,6 +5,9 @@ function Counter() {
     let now = dayjs();
     let worldcup = dayjs('2026-06-03');
     let difference = dayjs(worldcup).diff(now, 'day');
+    console.log(now);
+    console.log(worldcup);
+    console.log(difference);
 
     document.title = `${difference} dias para a copa!`; 
 
