@@ -2,7 +2,7 @@ function Footer() {
 
     return (
         <footer className="footer">
-            <p>Desenvolvido por Fernando Carvalho - Rumo ao Hexa! </p>
+            <a href="https://fernandocarvalhodev.com">Desenvolvido por Fernando Carvalho - Rumo ao Hexa! </a>
         </footer>
     )
 }

@@ -37,7 +37,7 @@
 }
 
 .btn:hover{
-  padding: 12px 36px;
+  padding: 12px 48px;
   transition: 0.6s;
 }
 
@@ -51,7 +51,14 @@
   font-weight: bold;
 }
 
-.footer:hover{
+.footer a{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer a:hover{
+  text-decoration: underline;
   font-size: 18px;
   transition: 0.4s;
 }
