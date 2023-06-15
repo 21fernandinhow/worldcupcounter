@@ -3,7 +3,7 @@ const dayjs = require('dayjs');
 function Counter() {
 
     let now = dayjs();
-    let worldcup = dayjs('2026-06-03');
+    let worldcup = dayjs('2026-06-08');
     let difference = dayjs(worldcup).diff(now, 'day');
 
     document.title = `${difference} dias para a copa!`; 
