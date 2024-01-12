@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Fragment>
-      <Counter />
+      <Counter/>
       <Footer />
     </Fragment>
   );

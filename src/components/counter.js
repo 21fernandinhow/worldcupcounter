@@ -1,4 +1,6 @@
-function Counter() {
+import ShareBtn from "./shareBtn";
+
+export default function Counter() {
 
     let today = new Date();
     let worldCupDate = new Date('2026-06-11');
@@ -8,6 +10,7 @@ function Counter() {
 
     return (
         <div className="container">
+            <ShareBtn days={difference} />
             <div className="main">
                 <img className="trophy" src='https://png.pngtree.com/png-vector/20221117/ourmid/pngtree-fifa-world-cup-trophy-clipart-illustration-png-image_6455581.png' alt='trophy' />
                 <h1>Faltam {difference} dias para a copa! </h1>
@@ -17,5 +20,3 @@ function Counter() {
         </div>
     )
 }
-
-export default Counter;

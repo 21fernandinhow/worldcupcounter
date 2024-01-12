@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Quanto falta para a Copa",
+  "name": "Quanto tempo falta para a próxima Copa do Mundo",
   "icons": [
     {
       "src": "favicon.ico",
