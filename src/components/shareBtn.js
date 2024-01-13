@@ -5,9 +5,7 @@ export default function ShareBtn (props) {
 
     return (
         <a 
-            id="shareBtn" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+            id="shareBtn"
             href={`https://web.whatsapp.com/send?text=${encodeURIComponent(message)}`}
         >
             <HiShare />
